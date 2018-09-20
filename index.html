@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="survey-wrapper-outer">
+        <h1 id="title">Example Survey</h1>
+        <div class="survey-wrapper-inner">
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, officiis.</p>
+            <form action="GET" id="survey-form">
+                <div class="survey-row">
+                    <div class="labels"><label id="name-label" for="name">* Name: </label></div>
+                    <div class="rightTab">
+                        <input autofocus type="text" id="name" name="name" class="input-field" required placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label id="email-label" for="email">* Email: </label></div>
+                    <div class="rightTab">
+                        <input autofocus type="email" id="email" name="email" class="input-field" required placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label id="number-label" for="number">* Age: </label></div>
+                    <div class="rightTab">
+                        <input autofocus type="number" id="number" name="number" class="input-field" required
+                            placeholder="Enter your age" min="13" max="113">
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label id="dropdown-label" for="dropdown">What do you expect from life?
+                        </label></div>
+                    <div class="rightTab">
+                        <select name="dropdown" id="dropdown">
+                            <option disabled value>
+                                Select an option
+                            </option>
+                            <option value="life">Don't mess up in life</option>
+                            <option value="god">Find or become god</option>
+                            <option value="money">Become filthy rich</option>
+                            <option value="bamboozle">Bamboozle a wizzwubba</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label id="radio-label" for="radio">How hard can you bamboozle?</label></div>
+                    <div class="rightTab">
+                        <ul class="radio-group">
+                            <li class="radio">
+                                <label>Pretty hard<input name="radio-buttons" value="1" type="radio" class="userRatings"></label>
+                            </li>
+                            <li class="radio">
+                                <label>Depends<input name="radio-buttons" value="2" type="radio" class="userRatings"></label>
+                            </li>
+                            <li class="radio">
+                                <label>I'm a loser<input name="radio-buttons" value="3" type="radio" class="userRatings"></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label for="checkbox-group">Tick Deez Boxes</label></div>
+                    <div class="rightTab">
+                        <ul class="checkbox-group" style="list-style:none;">
+                            <li class="checkbox">
+                                <label><input name="prefer" value="1" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="2" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="3" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="4" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="5" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="6" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                <label><input name="prefer" value="7" type="checkbox" class="ratings">"Lorem"
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="survey-row">
+                    <div class="labels"><label id="textarea-label" for="textarea">Write something - Won't ever read it
+                            anyways</label></div>
+                    <div class="rightTab">
+                        <textarea name="textarea" id="textarea" class="input-field" placeholder="Enter some wipzap...(!)"></textarea>
+                    </div>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
+</body>
+
+
+</html>

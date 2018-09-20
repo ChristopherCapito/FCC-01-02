@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.survey-wrapper-outer {
+    background-color: whitesmoke;
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: solid 6px lightgray;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px 1px grey;
+}
+
+#title {
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+    display: block;
+    margin: 0em;
+}
+
+#description {
+    text-align: center;
+}
+
+.rowTab {
+    display: block;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.input-field {
+    height: 20px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    resize: vertical;
+}
+
+
+#dropdown {
+    height: 35px;
+    width: 170x;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.radio-group {
+    list-style: none;
+    display: block;
+}
+
+.radio {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.userRatings {
+    float: left;
+    margin: 8px;
+}
+
+.checkbox-group {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.checkbox {
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.ratings {
+    float: left;
+}
+
+#submit {
+    font-size: 1em;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    color: whitesmoke;
+    background-color: #5b9aff;
+}
